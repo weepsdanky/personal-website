@@ -57,7 +57,7 @@ const nextConfig = {
       },
       {
         "source": "/linkedin",
-        "destination": "https://www.linkedin.com/in/xiaoyisun-xs522/",
+        "destination": "https://www.linkedin.com/in/xiaoyi-sun-xs522/",
         "permanent": true
       },
       {
