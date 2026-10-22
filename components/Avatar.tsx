@@ -1,10 +1,12 @@
-import { type ComponentProps } from '@zolplay/react'
+import { type PropsWithChildren } from 'react'
 import { clsxm } from '@zolplay/utils'
 import Image from 'next/image'
 import Link, { type LinkProps } from 'next/link'
 
 import portraitImage from '~/assets/Portrait.png'
 import portraitAltImage from '~/assets/PortraitAlt.jpg'
+
+type ComponentProps = PropsWithChildren<{ className?: string }>
 
 function AvatarContainer({ className, ...props }: ComponentProps) {
   return (
